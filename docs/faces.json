@@ -1,0 +1,16 @@
+[
+    {
+        "_id": "face_back_red",
+        "type": "face",
+        "title": "Back",
+        "text": "",
+        "style": "red"
+    },
+    {
+        "_id": "face_back_blue",
+        "type": "face",
+        "title": "Back",
+        "text": "",
+        "style": "blue"
+    }
+]

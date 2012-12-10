@@ -1,0 +1,21 @@
+card {
+    border: 0.5em solid #ccc;
+    width: 300px;
+    height: 500px;
+}
+
+red {
+    border-color: red;
+}
+
+blue {
+    border-color: blue;
+}
+
+grey {
+    border-color: #999;
+}
+
+card_title {
+    font: normal bold 1.2em;
+}

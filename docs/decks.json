@@ -1,0 +1,49 @@
+[
+    {
+        "_id": "poker",
+        "type": "deck",
+        "cards": [
+            "card_clubs_ace",
+            "card_diamonds_ace",
+            "card_hearts_ace",
+            "card_spades_ace",
+            "card_joker",
+            "card_joker"
+        ]
+    },
+    {
+        "_id": "draw",
+        "type": "location",
+        "name": "Draw",
+        "organization": "stack",
+        "card_list": [],
+        "nextLocation_str": "in_play"
+    },
+    {
+        "_id": "hand",
+        "type": "location",
+        "name": "In Hand",
+        "face_str": "facePrivate",
+        "organization": "spread",
+        "card_list": [],
+        "nextLocation_str": "discard"
+    },
+    {
+        "_id": "in_play",
+        "type": "location",
+        "name": "In Play",
+        "face_str": "faceUp",
+        "organization": "spread",
+        "card_list": [],
+        "nextLocation_str": "discard"
+    },
+    {
+        "_id": "discard",
+        "type": "location",
+        "name": "Discard",
+        "face_str": "faceUp",
+        "organization": "stack",
+        "card_list": [],
+        "nextLocation_str": null
+    }
+]

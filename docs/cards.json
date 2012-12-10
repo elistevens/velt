@@ -1,0 +1,53 @@
+[
+    {
+        "_id": "card_clubs_ace",
+        "type": "card",
+        "front": {
+            "title": "Ace Clubs",
+            "text": "",
+            "style": "black"
+        },
+        "back": "face_back_blue"
+    },
+    {
+        "_id": "card_diamonds_ace",
+        "type": "card",
+        "front": {
+            "title": "Ace Diamonds",
+            "text": "",
+            "style": "red"
+        },
+        "back": "face_back_blue"
+    },
+    {
+        "_id": "card_hearts_ace",
+        "type": "card",
+        "front": {
+            "title": "Ace Hearts",
+            "text": "",
+            "style": "red"
+        },
+        "back": "face_back_blue"
+    },
+    {
+        "_id": "card_spades_ace",
+        "type": "card",
+        "front": {
+            "title": "Ace Spades",
+            "text": "",
+            "style": "black"
+        },
+        "back": "face_back_blue"
+    },
+    {
+        "_id": "card_joker",
+        "type": "card",
+        "front": {
+            "title": "Joker",
+            "text": "Joker's wild!",
+            "style": "grey"
+        },
+        "back": "face_back_blue"
+    }
+]
+
